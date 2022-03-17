@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical">
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="شروع کوئیز"
+		android:layout_width="match_parent"
+		android:background="#66FF00"
+		android:textColor="#000000"
+		android:textStyle="bold"
+		android:textSize="20sp"
+		android:id="@+id/startquiez"/>
+		android:layout_margin="55dp"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="پروفایل من"
+		android:layout_width="wrap_content"
+		android:layout_marginTop="10dp"
+		android:background="#ED0D00"
+		android:textColor="#000000"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="درباره ما"
+		android:layout_width="wrap_content"
+		android:layout_marginTop="10dp"
+		android:background="#E6E0E0"
+		android:textColor="#000000"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="خروج"
+		android:layout_width="wrap_content"
+		android:layout_marginTop="10dp"
+		android:background="#068DE3"
+		android:textColor="#000000"/>
+
+</LinearLayout>
+
